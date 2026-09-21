@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "turath-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "--yes",
+        "tsx",
+        "./src/index.ts"
+      ],
+      "env": {}
+    }
+  }
+}
