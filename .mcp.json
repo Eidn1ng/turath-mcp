@@ -2,11 +2,10 @@
   "mcpServers": {
     "turath-mcp": {
       "type": "stdio",
-      "command": "npx",
+      "command": "sh",
       "args": [
-        "--yes",
-        "tsx",
-        "./src/index.ts"
+        "-c",
+        "npm install && npm start"
       ],
       "env": {}
     }
